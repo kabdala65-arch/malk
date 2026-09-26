@@ -45,15 +45,6 @@ export default function HeroSection() {
       </motion.h1>
 
       <motion.div
-        className="hero-date"
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ duration: 1, delay: 1.1 }}
-      >
-        12 / 6 / 2022
-      </motion.div>
-
-      <motion.div
         className="hero-divider"
         initial={{ scaleX: 0 }}
         animate={{ scaleX: 1 }}
@@ -68,7 +59,7 @@ export default function HeroSection() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1, delay: 1.9 }}
       >
-        من يوم 12/6/2022 والدنيا شكلها اتغيّر قدام عنيا <span className="inline-heart">♥</span><br /><br />
+        من يوم ما بقيتي في حياتي والدنيا شكلها اتغيّر قدام عنيا <span className="inline-heart">♥</span><br /><br />
         مش هقدر أوصفلك بالظبط إيه اللي اتبدل، بس فيه حاجة جوايا اطمنّت من ساعة ما بقيتي في حياتي.<br />
         اللي في قلبي أكبر بكتير من إني أحطه كله هنا، بس عملتلك المكان ده عشان تشوفي جزء بسيط منه،<br />
         وعشان تعرفي إنك أحلى وأهم حاجة حصلتلي في الدنيا كلها ❤️
